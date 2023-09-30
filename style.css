@@ -1,0 +1,76 @@
+body {
+    background-color:  rgb(117, 112, 222);
+    font-family: 'Lato', sans-serif;
+}
+
+div {
+    margin: 20px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+p {
+    font-weight: 400;
+    color: rgb(152, 152, 152);
+}
+
+.container {
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    width: 500px;
+}
+
+.input-qrCode {
+    width: 400px;
+    height: 30px;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 4px;
+    font-size: 12pt;
+    color: rgb(152, 152, 152);
+    padding-left: 10px;
+}
+
+.button-generator {
+    padding: 10px;
+    width: 300px;
+    background-color: rgb(65, 86, 225);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 12pt;
+    transition: all 0.5 ease;
+}
+
+.button-generator:hover {
+    color: rgb(65, 86, 225);
+    cursor: pointer;
+    font-weight: 600;
+    border: 1px solid rgb(65, 86, 225);
+    background-color: white
+}
+
+.div-action-qrcode {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.qr-code .img{
+    height: auto;
+    width: 220px;
+
+}
